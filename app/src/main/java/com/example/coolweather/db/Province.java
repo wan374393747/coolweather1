@@ -3,9 +3,9 @@ package com.example.coolweather.db;
 import org.litepal.crud.DataSupport;
 
 public class Province extends DataSupport {
-    private int id;//每个实体都有的字段
-    private String provinceName;//省的名字
-    private int provinceCode;//省的代号
+    private int id;
+    private String provinceName;
+    private int provinceCode;
 
     public int getId() {
         return id;

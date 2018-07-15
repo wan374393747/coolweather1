@@ -2,11 +2,11 @@ package com.example.coolweather.db;
 
 import org.litepal.crud.DataSupport;
 
-public class City extends DataSupport {
+public class City extends DataSupport{
     private int id;
-    private String cityName;//市的名字
-    private int cityCode;//市的代号
-    private int provinceId;//市所属省的Id
+    private String cityName;
+    private int cityCode;
+    private int provinceId;
 
     public int getId() {
         return id;
